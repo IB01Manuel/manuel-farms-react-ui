@@ -1,3 +1,4 @@
+/* Custom colors */
 .custom-color {
     color: green;
 }
@@ -6,30 +7,21 @@
     color: rgba(3, 103, 174, 1);
 }
 
+/* Features component */
 .feature-icon {
     width: 4rem;
     height: 4rem;
     border-radius: .75rem;
 }
 
-.img {
-    border-radius: 50%;
-    height: 50px;
-}
-
-
-button:hover {
-    background-color: none;
-}
-
+/* Hover effects for item cards */
 .item-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
 }
 
+/* Link styling */
 a {
-    display: block;
-    margin-top: 20px;
     text-decoration: none;
     color: rgba(3, 103, 174, 1);
 }
@@ -38,11 +30,12 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Item card for search results */
 .item-card {
     display: flex;
-    align-items: flex-start; /* center */
+    align-items: flex-start;
     background: #fff;
-    padding: 25px; /* Increased padding for larger images */
+    padding: 25px;
     margin: 20px 0;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -72,29 +65,30 @@ a:hover {
   color: green;
 }
 
+/* Container styling */
 .container {
     background: white;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 800px;
-    /* width: 60%; */
     margin: auto;
 }
 
+/* Search bar styling */
 .search-bar {
     display: flex;
     width: 300px;
-    border: 2px solid rgba(3, 103, 174, 1); /* Border color */
-    border-radius: 5px; /* Rounded edges */
-    overflow: hidden; /* Prevents overflow */
+    border: 2px solid rgba(3, 103, 174, 1);
+    border-radius: 5px;
+    overflow: hidden;
     position: absolute;
     right: 10px;
     margin: 0 auto;
 }
 
 .search-bar input {
-    flex: 1; /* Takes available space */
+    flex: 1;
     padding: 10px;
     border: none;
     outline: none;
@@ -113,6 +107,7 @@ a:hover {
     background-color: rgba(3, 103, 174, 1);
 }
 
+/* Footer */
 footer {
   flex: 0 0 auto;
   background-color: rgba(3, 103, 174, 1) !important;
@@ -135,7 +130,7 @@ footer {
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
 }
 
-/* Additional Bootstrap overrides for consistency */
+/* Bootstrap overrides */
 .border-bottom {
     border-bottom: 1px solid #dee2e6 !important;
 }
@@ -148,111 +143,7 @@ footer {
     color: #6c757d !important;
 }
 
-/* Ensure images display correctly */
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Card styling for search results */
-.card {
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.375rem;
-}
-
-.card-img-top {
-    width: 100%;
-    border-top-left-radius: calc(0.375rem - 1px);
-    border-top-right-radius: calc(0.375rem - 1px);
-}
-
-.shadow-sm {
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-}
-
-/* Button styling */
-.btn-outline-secondary {
-    color: #6c757d;
-    border-color: #6c757d;
-}
-
-.btn-outline-secondary:hover {
-    color: #fff;
-    background-color: #6c757d;
-    border-color: #6c757d;
-}
-
-.btn-outline-success {
-    color: #198754;
-    border-color: #198754;
-}
-
-.btn-outline-success:hover {
-    color: #fff;
-    background-color: #198754;
-    border-color: #198754;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #0d6efd;
-    border-color: #0d6efd;
-}
-
-.btn-primary:hover {
-    color: #fff;
-    background-color: #0b5ed7;
-    border-color: #0a58ca;
-}
-
-/* Navbar styling */
-.navbar-brand {
-    color: rgba(3, 103, 174, 1);
-    font-weight: bold;
-}
-
-.nav-link {
-    color: #495057;
-}
-
-.nav-link:hover {
-    color: rgba(3, 103, 174, 1);
-}
-
-/* Ensure proper spacing */
-.my-5 {
-    margin-top: 3rem !important;
-    margin-bottom: 3rem !important;
-}
-
-.mb-4 {
-    margin-bottom: 1.5rem !important;
-}
-
-/* Text colors */
-.text-body-emphasis {
-    color: #212529 !important;
-}
-
-/* Make sure the React app has proper background */
-body {
-    background-color: #f8f9fa;
-}
-
-/* Additional utility classes */
-.overflow-hidden {
-    overflow: hidden;
-}
-
-.shadow-lg {
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-}
-
-.rounded-3 {
-    border-radius: 0.5rem !important;
-}
-
-/* Update responsive design for larger images */
+/* Responsive design */
 @media (max-width: 768px) {
   .search-result-image {
     width: 100%;
@@ -275,15 +166,4 @@ body {
   object-fit: cover;
   border-radius: 8px;
   margin-right: 20px;
-}
-
-/* For even larger images */
-.search-result-image.large {
-  width: 350px;
-  height: 350px;
-}
-
-.search-result-image.x-large {
-  width: 400px;
-  height: 400px;
 }
