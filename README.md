@@ -28,7 +28,7 @@ Manuel Farms is a modern React-based e-commerce platform designed to revolutioni
 
 ## 🚀 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Manuel_Farms-Live_Demo-blue?style=for-the-badge&logo=netlify)](https://manuelfarms-demo.netlify.app)
+[![Live Demo](https://manuel-farms-react-ui.vercel.app/)]
 
 [![App Screenshot](https://github.com/IB01Manuel/manuel-farms-react-ui/blob/master/Manuel%20Farms%20-%20capture-1.png)]
 
