@@ -30,7 +30,7 @@ Manuel Farms is a modern React-based e-commerce platform designed to revolutioni
 
 [![Live Demo](https://img.shields.io/badge/Manuel_Farms-Live_Demo-blue?style=for-the-badge&logo=netlify)](https://manuelfarms-demo.netlify.app)
 
-[![App Screenshot](https://github.com/IB01Manuel/manuel-farms-react-ui/]![alt text](<Manuel Farms - capture-5.png>)
+[![App Screenshot](https://github.com/IB01Manuel/manuel-farms-react-ui/blob/master/Manuel%20Farms%20-%20capture-1.png)]
 
 **Key Sections:**
 - 🏠 **Homepage** - Featured products, carousel, and search functionality
@@ -117,7 +117,7 @@ Manuel Farms is a modern React-based e-commerce platform designed to revolutioni
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/IB01Manuel/manuel-farms.git
+git clone https://github.com/IB01Manuel/manuel-farms-react-ui.git
 cd manuel-farms
 ```
 
@@ -323,7 +323,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Manuel Farms - [manuel.ibibo@yahoo.com](mailto:manuel.ibibo@yahoo.com)
 
-Project Link: [https://github.com/IB01Manuel/manuel-farms](https://github.com/IB01Manuel/manuel-farms)
+Project Link: [https://github.com/IB01Manuel/manuel-farms-react-ui](https://github.com/IB01Manuel/manuel-farms-react-ui)
 
 ---
 
