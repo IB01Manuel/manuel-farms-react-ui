@@ -53,7 +53,7 @@ Manuel Farms is a modern React-based e-commerce platform designed to revolutioni
   - Animated hover effects
 
 - **Search & Discovery**
-  - Real-time search with API integration
+  - Real-time search with API integration (eggs, chicken, fish and pigs for NOW.)
   - Detailed product listings with images
   - Price display and product descriptions
   - Error handling and loading states
@@ -227,7 +227,7 @@ GET /api/search?q={query}
 ### Environment Variables
 ```env
 # Frontend
-VITE_API_BASE_URL=http://localhost:3001
+VITE_API_BASE_URL=http://localhost:3000
 
 # Backend (example)
 DB_HOST=localhost
